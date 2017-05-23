@@ -1,0 +1,28 @@
+Król Artur i Œwiêty Graal
+Król Artur wraz ze swymi rycerzami otrzyma³ misjê odnalezienia Œwiêtego Graala. Wiadomo, ¿e Graal znajduje siê gdzieœ w Anglii (tam te¿ ma swój zamek król Artur). Podczas wêdrówki mo¿e jednak spotkaæ siê z przeciwnoœciami: mo¿e natkn¹æ siê na Czarnego Rycerza, którego musi pokonaæ (i to za ka¿dym razem, gdy go spotka) lub trafiæ na Rycerzy Mówi¹cych Ni, których musi u³askawiæ przynosz¹c im krzak (który mo¿e nabyæ u sprzedawcy krzaków). Twoim zadaniem jest wskazanie królowi najkrótszej trasy do Œwiêtego Graala.
+Uwaga: królowi nie przystoi podró¿owaæ z krzakiem (chyba, ¿e ma Misjê), wiêc nie mo¿e "na zapas" nabyæ krzaku. Dopiero, gdy natknie siê na Rycerzy Mówi¹cych Ni, musi wyruszyæ do sprzedawcy, nabyæ krzak i jak najszybciej wróciæ do Rycerzy.
+Wejœcie
+Na wejœciu zostanie podany graf – mapa Anglii. W pierwszej linii pojawi siê n – liczba osad w Anglii oraz k – czas potrzebny na pokonanie Czarnego Rycerza (w godzinach). W kolejnych n liniach pojawi¹ siê opisy dróg wychodz¹cych z i-tej osady w formacie:
+typ m c1 d1 ... cm dm
+gdzie:
+typ opisuje i-t¹ osadê: 0 oznacza zwyczajn¹ osadê, 1 sprzedawcê krzaków, 2 obozowisko Czarnego Rycerza, 3 postój Rycerzy Mówi¹cych Ni, 4 oznacza zamek króla Artura (sk¹d wyrusza na swoj¹ misjê) zaœ 5 oznacza miejsce, w którym ukryty jest Œwiêty Graal,
+m opisuje liczbê dróg wychodz¹cych z i-tej osady,
+ci opisuje cel i-tej drogi (numer osady, do której prowadzi),
+di opisuje d³ugoœæ i-tej drogi (w godzinach).
+Wyjœcie
+Na wyjœciu nale¿y wypisaæ kolejne numery osad, przez które król Artur wraz ze swoj¹ dru¿ynê musi przejœæ, by jak najszybciej odnaleŸæ Œwiêtego Graala.
+Przyk³ad
+
+Wejœcie
+7 2
+4 2 1 4 4 1
+0 2 0 4 2 8
+0 2 1 8 3 8
+5 2 2 8 4 1
+3 3 0 1 3 1 5 1
+2 2 4 1 6 1
+1 1 5 1
+
+
+Wyjœcie
+0 4 5 6 5 4 3 
